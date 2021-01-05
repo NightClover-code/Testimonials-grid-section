@@ -1,0 +1,27 @@
+.testimonials__grid {
+  margin-top: 150px;
+  grid-gap: 30px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  .daniel__card {
+    grid-column: span 2;
+  }
+  .kira__card {
+    grid-row: span 2;
+  }
+  .patrick__card {
+    grid-column: span 2;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .testimonials__grid {
+    grid-template-columns: 1fr;
+    .daniel__card {
+      grid-column: span 1;
+    }
+    .patrick__card {
+      grid-column: span 1;
+    }
+  }
+}

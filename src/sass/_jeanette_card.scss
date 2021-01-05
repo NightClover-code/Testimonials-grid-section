@@ -1,0 +1,25 @@
+.jeanette__card {
+  background-color: $white;
+  .card__content {
+    .identity {
+      .avatar__details {
+        .name {
+          color: $very-dark-blackish-blue;
+          font-weight: 500;
+        }
+        h4 {
+          color: $very-dark-blackish-blue;
+          opacity: 0.5;
+          font-weight: 500;
+        }
+      }
+    }
+    .opinion {
+      color: $very-dark-grayish-blue;
+    }
+    .quote {
+      color: $very-dark-blackish-blue;
+      opacity: 0.7;
+    }
+  }
+}
